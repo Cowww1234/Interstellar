@@ -1703,6 +1703,24 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ['all', '2P', 'emu'],
       blank: 'true',
     },
+    {
+      name: 'Tetris]',
+      link: 'https://www.lumpty.com/amusements/Games/Tetris/tetris.html',
+      image: '/assets/media/icons/classic-tetris-logo.webp',
+      categories: ['all','emu'],
+    },
+    {
+      name: 'Wordle',
+      link: 'https://wordleunlimited.org/',
+      image: '/assets/media/icons/wordle.webp',
+      categories: ['all','emu'],
+    },
+    {
+      name: 'Connections Unlimited]',
+      link: 'https://www.connectionsunlimited.org/',
+      image: '/assets/media/icons/connections.webp',
+      categories: ['all','emu'],
+    },
   ]
 
   appsList.sort((a, b) => a.name.localeCompare(b.name))

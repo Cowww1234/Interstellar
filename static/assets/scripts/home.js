@@ -31,7 +31,7 @@ if (!inFrame && !navigator.userAgent.includes('Firefox')) {
     doc.head.appendChild(link)
     doc.body.appendChild(iframe)
 
-    const pLink = localStorage.getItem(encodeURI('pLink')) || 'https://www.nasa.gov/'
+    const pLink = localStorage.getItem(encodeURI('pLink')) || 'https://www.google.com'
     location.replace(pLink)
   }
 }
@@ -61,10 +61,9 @@ document.onkeydown = function (evt) {
 }
 
 let splashtext = [
-  'Over 7 Million Users in 2023!',
-  'Fastest growing proxy server!',
-  'Made by Bubbo!',
-  'Check out discord.gg/interstellar :)',
+  'Interstellar proxy customized by me :))',
+  'Cool game library',
+  'Interstellar = coolio',
 ]
 
 document.getElementById('splash').innerText = splashtext[Math.floor(Math.random() * splashtext.length)]

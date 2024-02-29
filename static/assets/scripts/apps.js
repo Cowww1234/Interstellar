@@ -274,6 +274,14 @@ document.addEventListener('DOMContentLoaded', () => {
       image: '/assets/media/icons/gemini.png',
       categories: ['all', 'ai'],
     },
+    {
+      name: 'Snapchat',
+      link: 'https://web.snapchat.com',
+      image: '/assets/media/icons/snapchat.webp',
+      categories: ['all', 'social'],
+      say: 'Snapchat is currently not working on the proxy.',
+      error: true,
+    },
   ]
 
   appsList.sort((a, b) => a.name.localeCompare(b.name))
